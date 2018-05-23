@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55E68C3A20B512DC006B2F3C /* marshabitatpricer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 55E68C3920B512DC006B2F3C /* marshabitatpricer.mlmodel */; };
 		9AD9511420ABF8EA007B1D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9511320ABF8EA007B1D24 /* AppDelegate.swift */; };
 		9AD9511620ABF8EA007B1D24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9511520ABF8EA007B1D24 /* ViewController.swift */; };
 		9AD9511920ABF8EA007B1D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD9511720ABF8EA007B1D24 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		9AD9511E20ABF8EA007B1D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD9511C20ABF8EA007B1D24 /* LaunchScreen.storyboard */; };
 		9AD9512920ABF8EA007B1D24 /* MarsV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9512820ABF8EA007B1D24 /* MarsV1Tests.swift */; };
 		9AD9513420ABF8EA007B1D24 /* MarsV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD9513320ABF8EA007B1D24 /* MarsV1UITests.swift */; };
-		9AE4965320AE9023006134B1 /* PickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE4965220AE9023006134B1 /* PickerDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55E68C3920B512DC006B2F3C /* marshabitatpricer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = marshabitatpricer.mlmodel; sourceTree = "<group>"; };
 		9AD9511020ABF8EA007B1D24 /* MarsV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarsV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD9511320ABF8EA007B1D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AD9511520ABF8EA007B1D24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		9AD9512F20ABF8EA007B1D24 /* MarsV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD9513320ABF8EA007B1D24 /* MarsV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsV1UITests.swift; sourceTree = "<group>"; };
 		9AD9513520ABF8EA007B1D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AE4965220AE9023006134B1 /* PickerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +99,10 @@
 		9AD9511220ABF8EA007B1D24 /* MarsV1 */ = {
 			isa = PBXGroup;
 			children = (
+				55E68C3920B512DC006B2F3C /* marshabitatpricer.mlmodel */,
 				9AD9511320ABF8EA007B1D24 /* AppDelegate.swift */,
 				9AD9511520ABF8EA007B1D24 /* ViewController.swift */,
 				9AD9511720ABF8EA007B1D24 /* Main.storyboard */,
-				9AE4965220AE9023006134B1 /* PickerDataSource.swift */,
 				9AD9511A20ABF8EA007B1D24 /* Assets.xcassets */,
 				9AD9511C20ABF8EA007B1D24 /* LaunchScreen.storyboard */,
 				9AD9511F20ABF8EA007B1D24 /* Info.plist */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AE4965320AE9023006134B1 /* PickerDataSource.swift in Sources */,
+				55E68C3A20B512DC006B2F3C /* marshabitatpricer.mlmodel in Sources */,
 				9AD9511620ABF8EA007B1D24 /* ViewController.swift in Sources */,
 				9AD9511420ABF8EA007B1D24 /* AppDelegate.swift in Sources */,
 			);
